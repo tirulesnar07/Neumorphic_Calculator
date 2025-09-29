@@ -1,5 +1,9 @@
-# Neumorphic_Calculator
-A Small Calculator mini using shell scripting
+
+# Neumorphic Calculator Mini Project
+# This script performs basic arithmetic operations:
+# addition, subtraction, multiplication, and division.
+
+--> using shell scripting
 
 #!/bin/bash – Tells the system to run the script with Bash.
 
@@ -11,4 +15,5 @@ while true; do ... done – Infinite loop, keeps program running until explicitl
 
 case ... in ... esac – Cleaner way to handle multiple conditions instead of many if-elif-else.
 
+bc – Command-line calculator for performing arithmetic. Bash alone cannot handle floating-point numbers well.
 
